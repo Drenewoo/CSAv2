@@ -2,7 +2,7 @@
 using System.Drawing;
 
 
-string version = "A0.0.1.0";
+string version = "A0.0.1.1";
 
 
 //Wstępne ustawienie
@@ -137,7 +137,7 @@ void controller() // sterowanie
             else if (input.Key == ConsoleKey.S || input.Key == ConsoleKey.DownArrow) // Kursor w dół
             {
                 controly++;
-                if (controly > 31) { controly--; }
+                if (controly > 30) { controly--; }
 
             }
             else if (input.Key == ConsoleKey.A || input.Key == ConsoleKey.LeftArrow) // Kursor w lewo
