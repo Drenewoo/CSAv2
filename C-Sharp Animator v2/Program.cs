@@ -1,9 +1,13 @@
 ﻿
 using System.Drawing;
 
+
+string version = "A0.0.1.0";
+
+
 //Wstępne ustawienie
 Console.SetWindowPosition(0, 0); // ustaw pozycję okna  
-Console.SetWindowSize(120, 50); // ustaw rozmiar okna   
+Console.SetWindowSize(120, 40); // ustaw rozmiar okna   
 Console.CursorVisible = false; // ukryj kursor konsoli  
 
 //zmienne
@@ -64,7 +68,7 @@ void debugtext(ConsoleKeyInfo Key) // tekst debugowania
     Console.ForegroundColor = (ConsoleColor)colormodefore;
     Console.Write("                                                                                                                   ");
     Console.SetCursorPosition(0, 0);
-    Console.Write("Debug text ( temporary ) : ");
+    Console.Write("Version: " + version + " Debug text ( temporary ) : ");
     Console.ForegroundColor = (ConsoleColor)highlightcolor;
     Console.Write("Last input: " + Key.Key.ToString() + "             " + " Current color: ");
     Console.BackgroundColor = (ConsoleColor)currentcolor;
