@@ -19,6 +19,7 @@ Features I want to add:
 - copy/paste whole frame
 
 Controls:
+
 WSAD/Arrows - sterring
 
 E - Draw  F - Erase
