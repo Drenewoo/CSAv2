@@ -20,9 +20,20 @@ Features I want to add:
 
 Controls:
 
-WSAD/Arrows - sterring
+WSAD/Arrows - sterring ( drawing area / menu bar )
 
-E - Draw  F - Erase
+drawing area:
+
+E - Draw F - Erase
 
 1-7 - select color
 c/v - change frame
+
+escape - menu bar
+
+Menu bar:
+
+E - select
+escape - back
+
+
