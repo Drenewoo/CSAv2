@@ -34,6 +34,7 @@ escape - menu bar
 Menu bar:
 
 E - select
+
 Escape - back
 
 
