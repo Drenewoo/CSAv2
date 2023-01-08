@@ -11,7 +11,7 @@ For now program features are:
 
 Features I want to add:
 - animation player
-- toolbar
+- menu bar
 - highlight previous frame
 - tools ( like bucket, lines, etc. )
 - save/draw custom shape ( include save and load from file )
