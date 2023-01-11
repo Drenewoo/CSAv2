@@ -10,8 +10,6 @@ For now program features are:
 - 9999 frames
 
 Features I want to add:
-- animation player
-- menu bar
 - highlight previous frame
 - tools ( like bucket, lines, etc. )
 - save/draw custom shape ( include save and load from file )
@@ -29,11 +27,17 @@ E - Draw F - Erase
 1-7 - select color
 c/v - change frame
 
+l - set last frame in animation
+
 escape - menu bar
 
 Menu bar:
 
 E - select
+
+Player:
+
+Escape - exit player
 
 Escape - back
 
